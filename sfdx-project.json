@@ -1,0 +1,25 @@
+{
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "package": "HamZayn",
+      "versionNumber": "1.0.0.0",
+      "default": true,
+      "ancestorId": ""
+    }
+  ],
+  "name": "HamZayn",
+  "namespace": "",
+  "description": "HamZayn Salesforce CRM Project - Sales and Service Management",
+  "scripts": {
+    "test": "sf apex run test --test-level RunLocalTests",
+    "lint": "eslint **/{aura,lwc}/**",
+    "prettier": "prettier --write \"**/{aura,lwc}/**/*.{js,html}\"",
+    "prettier:verify": "prettier --list-different \"**/{aura,lwc}/**/*.{js,html}\""
+  },
+  "plugins": [
+    "@salesforce/sfdx-scanner"
+  ]
+}
