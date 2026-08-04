@@ -1,0 +1,17 @@
+{
+  "orgName": "HamZayn Scratch Org",
+  "edition": "Developer",
+  "features": [
+    "ServiceCloud",
+    "ForceComPlatform",
+    "PersonAccount"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

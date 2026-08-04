@@ -1,0 +1,14 @@
+<template>
+    <div class="slds-box slds-theme_default">
+        <h1 class="slds-text-heading_large">Sales Dashboard</h1>
+        <template if:true={isLoading}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </template>
+        <template if:true={error}>
+            <p class="slds-text-color_error">{error}</p>
+        </template>
+        <template if:false={isLoading}>
+            <!-- Add dashboard content here -->
+        </template>
+    </div>
+</template>

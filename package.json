@@ -1,0 +1,29 @@
+{
+  "name": "hamzayn",
+  "version": "1.0.0",
+  "description": "HamZayn Salesforce CRM Project - Sales and Service Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "sf apex run test --test-level RunLocalTests",
+    "lint": "eslint **/{aura,lwc}/**",
+    "lint:fix": "eslint --fix **/{aura,lwc}/**",
+    "prettier": "prettier --write \"**/{aura,lwc}/**/*.{js,html}\"",
+    "prettier:verify": "prettier --list-different \"**/{aura,lwc}/**/*.{js,html}\"",
+    "deploy": "sf project deploy start",
+    "retrieve": "sf project retrieve start"
+  },
+  "keywords": [
+    "salesforce",
+    "crm",
+    "sales",
+    "service"
+  ],
+  "author": "aneesa666666",
+  "license": "MIT",
+  "devDependencies": {
+    "@salesforce/eslint-config-lwc": "^3.5.0",
+    "@salesforce/sfdx-scanner": "^3.17.0",
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0"
+  }
+}
