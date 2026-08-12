@@ -1,6 +1,6 @@
 {
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0",
+  "sourceApiVersion": "59.0",
   "packageDirectories": [
     {
       "path": "force-app",
