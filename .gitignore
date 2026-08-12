@@ -39,3 +39,7 @@ coverage/
 
 # Prettier
 .prettierignore
+.sfdx/
+*.log/
+.vscode/
+.env
