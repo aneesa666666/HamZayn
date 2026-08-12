@@ -185,4 +185,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Last Updated**: August 2026
 
-For more information and support, please visit the [GitHub repository](https://github.com/aneesa666666/HamZayn).
+For more information and support, please visit the [GitHub repository](https://github.com/aneesa666666/HamZayn). 
+
